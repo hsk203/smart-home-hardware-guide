@@ -1,0 +1,117 @@
+---
+import { t } from "../i18n";
+import BlogLayout from "../layouts/BlogLayout.astro";
+import PostFeed from "../components/posts/PostFeed.vue";
+import PostListFallback from "../components/posts/PostListFallback.astro";
+import { getPosts, summarize } from "../lib/posts";
+import { categoryNames, categoryLabel } from "../data/post-options";
+const posts = (await getPosts()).map(summarize);
+const counts = new Map(
+  categoryNames.map((c) => [
+    c,
+    posts.filter((p) => p.category === c).length,
+  ]),
+);
+---
+
+<BlogLayout home>
+  <div class="hello-strip">
+    <span class="icon-[lucide--sparkles]" aria-hidden="true"></span>
+    <p>{t("home.greeting")}</p>
+    <span class="hello-pill">{t("home.greetingBadge")}</span>
+  </div>
+  <section class="tool-categories" aria-label={t("home.categoriesTitle")}>
+    <div class="categories-head">
+      <h2>{t("home.categoriesTitle")}</h2>
+      <p>{t("home.categoriesSubtitle")}</p>
+    </div>
+    <div class="category-grid">
+      {categoryNames.map((c) => (
+        <a class="category-card" href={`/?category=${encodeURIComponent(c)}`}>
+          <strong>{categoryLabel(c)}</strong>
+          <span>{t("post.records", { count: counts.get(c) ?? 0 })}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+  <PostFeed posts={posts} client:load />
+  <PostListFallback posts={posts} />
+</BlogLayout>
+<style>
+  .hello-strip {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: var(--accent);
+    font-size: 11px;
+    margin: 0 0 21px;
+    padding: 11px 15px;
+    border: 1px dashed #ebbbc980;
+    border-radius: 11px;
+    background: #ffffff25;
+  }
+  .hello-strip > span:first-child {
+    font-size: 17px;
+    flex-shrink: 0;
+  }
+  .hello-strip p {
+    margin: 0;
+    flex: 1;
+  }
+  .hello-pill {
+    font:
+      7px "Oxanium-Medium",
+      var(--font-body);
+    letter-spacing: 0.05em;
+    opacity: 0.65;
+  }
+  .tool-categories {
+    margin: 0 0 26px;
+  }
+  .categories-head h2 {
+    font-size: 17px;
+    margin: 0 0 4px;
+  }
+  .categories-head p {
+    font-size: 12px;
+    color: var(--muted);
+    margin: 0 0 14px;
+  }
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+  }
+  .category-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 16px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--card);
+    box-shadow: var(--shadow);
+    color: var(--text);
+    text-decoration: none;
+  }
+  .category-card:hover {
+    border-color: var(--accent);
+  }
+  .category-card strong {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .category-card span {
+    font-size: 11px;
+    color: var(--muted);
+  }
+  @media (max-width: 760px) {
+    .hello-strip {
+      font-size: 10px;
+      margin-bottom: 22px;
+    }
+    .hello-pill {
+      display: none;
+    }
+  }
+</style>
