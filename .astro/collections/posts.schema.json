@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lang": {
+      "default": "zh-CN",
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "zh-Hant",
+        "en",
+        "ja"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "standing-desks",
+        "smart-switches",
+        "ergonomic-chairs",
+        "small-space"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "cover": {
+      "type": "string",
+      "enum": [
+        "tool",
+        "astro",
+        "vue",
+        "css",
+        "notes",
+        "life",
+        "typescript",
+        "git",
+        "design"
+      ]
+    },
+    "coverImage": {
+      "type": "string"
+    },
+    "featured": {
+      "default": false,
+      "type": "boolean"
+    },
+    "draft": {
+      "default": false,
+      "type": "boolean"
+    },
+    "pricingModel": {
+      "type": "string",
+      "enum": [
+        "free",
+        "freemium",
+        "paid"
+      ]
+    },
+    "startingPrice": {
+      "type": "string"
+    },
+    "needVPN": {
+      "type": "boolean"
+    },
+    "cnAlternative": {
+      "type": "string"
+    },
+    "affiliateUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "updatedDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "title",
+    "description",
+    "date",
+    "category",
+    "tags",
+    "cover"
+  ]
+}
