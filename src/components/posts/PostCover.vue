@@ -55,13 +55,7 @@ const labels: Record<string, { icon: string; title: string; sub: string }> = {
     :class="[kind, { featured, 'has-image': !!image }]"
     aria-hidden="true"
   >
-    <img
-      v-if="image"
-      :src="image"
-      alt=""
-      loading="lazy"
-      class="cover-image"
-    />
+    <img v-if="image" :src="image" alt="" loading="lazy" class="cover-image" />
     <template v-else>
       <div class="cover-grid"></div>
       <span class="cover-orbit"></span><span class="cover-dot"></span>

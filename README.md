@@ -28,15 +28,15 @@ pnpm preview  # 本地预览构建结果
 title: "工具名：副标题"
 description: "一句话介绍"
 date: 2026-11-12
-category: writing   # writing | art | video | coding | office
+category: writing # writing | art | video | coding | office
 tags: ["AI 写作", "工具名"]
 cover: tool
-pricingModel: freemium   # free | freemium | paid（可选）
-startingPrice: "$20/月"   # 可选
-needVPN: true             # 可选
-cnAlternative: "文心一言"  # 可选
+pricingModel: freemium # free | freemium | paid（可选）
+startingPrice: "$20/月" # 可选
+needVPN: true # 可选
+cnAlternative: "文心一言" # 可选
 affiliateUrl: "https://..." # 可选
-updatedDate: 2026-11-12   # 可选
+updatedDate: 2026-11-12 # 可选
 ---
 ```
 

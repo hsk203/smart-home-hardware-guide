@@ -1,6 +1,6 @@
 ---
 title: "Best Standing Desk for Small Spaces (2026): 5 Compact Desks Compared by Footprint"
-description: "The best standing desk for a small space isn't the cheapest — it's the one that fits your room. Branch Duo 36\" (36×24\", $549), FlexiSpot E7 (48×24\", ~$369), FlexiSpot E7 Pro, FEZIBO 32\", and Desky Mini compared by footprint, height range, capacity, and price."
+description: 'The best standing desk for a small space isn''t the cheapest — it''s the one that fits your room. Branch Duo 36" (36×24", $549), FlexiSpot E7 (48×24", ~$369), FlexiSpot E7 Pro, FEZIBO 32", and Desky Mini compared by footprint, height range, capacity, and price.'
 date: 2026-11-12
 lang: en
 category: standing-desks
@@ -18,13 +18,13 @@ This guide compares five compact standing desks by the numbers that matter in a 
 
 ## The short answer
 
-| Desk | Smallest top | Height range | Capacity | Approx. price |
-| --- | --- | --- | --- | --- |
-| **Branch Duo 36"** | 36 × 24 in | 28–47.3 in | 275 lb | $549 |
-| **FlexiSpot E7** | 48 × 24 in | 22.8–48.4 in | 355 lb | ~$369 |
-| **FlexiSpot E7 Pro** | 48 × 24 in | 22.8–48.4 in | 440 lb | ~$479 |
-| **FEZIBO 32"** | 32 × 20 in | 28.4–46.5 in | — | ~$160 |
-| **Desky Dual Mini** | 32 × 20 in | 23.6–49.2 in | — | ~$619 |
+| Desk                 | Smallest top | Height range | Capacity | Approx. price |
+| -------------------- | ------------ | ------------ | -------- | ------------- |
+| **Branch Duo 36"**   | 36 × 24 in   | 28–47.3 in   | 275 lb   | $549          |
+| **FlexiSpot E7**     | 48 × 24 in   | 22.8–48.4 in | 355 lb   | ~$369         |
+| **FlexiSpot E7 Pro** | 48 × 24 in   | 22.8–48.4 in | 440 lb   | ~$479         |
+| **FEZIBO 32"**       | 32 × 20 in   | 28.4–46.5 in | —        | ~$160         |
+| **Desky Dual Mini**  | 32 × 20 in   | 23.6–49.2 in | —        | ~$619         |
 
 **Pick the Branch Duo 36"** if footprint is your top priority — it is the only desk here with a 36-inch top, and it looks like furniture rather than office equipment. **Pick the FlexiSpot E7** if you want the best specs per dollar and can fit a 48-inch top. **Pick the FEZIBO** if your budget is under $200 and your setup is light.
 
@@ -119,4 +119,4 @@ One more thing: measure your chair. A standing desk that drops to 23 inches is o
 - Best standing desks for small spaces, PostureRanked (postureranked.com, 2026): comparison table, Branch Duo and E7 Pro specs.
 - Standing desk buying guide for small offices, RiseWorktop (riseworktop.com, October 2026): sizing guidance, spec comparison.
 
-*Prices checked November 2026. They change — verify before you buy. This page contains no affiliate links yet; product links go to the manufacturers' own stores.*
+_Prices checked November 2026. They change — verify before you buy. This page contains no affiliate links yet; product links go to the manufacturers' own stores._

@@ -7,10 +7,7 @@ import { getPosts, summarize } from "../lib/posts";
 import { categoryNames, categoryLabel } from "../data/post-options";
 const posts = (await getPosts()).map(summarize);
 const counts = new Map(
-  categoryNames.map((c) => [
-    c,
-    posts.filter((p) => p.category === c).length,
-  ]),
+  categoryNames.map((c) => [c, posts.filter((p) => p.category === c).length]),
 );
 ---
 

@@ -35,9 +35,7 @@ export default defineConfig({
     vue(),
     sitemap({
       filter: (page) =>
-        !["/404/", "/404.html", "/articles/"].includes(
-          new URL(page).pathname,
-        ),
+        !["/404/", "/404.html", "/articles/"].includes(new URL(page).pathname),
     }),
   ],
   vite: {

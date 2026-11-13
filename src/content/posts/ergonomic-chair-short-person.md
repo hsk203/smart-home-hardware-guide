@@ -1,10 +1,17 @@
 ---
 title: "Ergonomic Chair for Short Person (2026): 5 Chairs That Actually Fit"
-description: "The best ergonomic chair for a short person starts with one number: minimum seat height. Herman Miller Aeron Size A (14.8\"), Steelcase Series 1 (16.5\"), Branch Ergonomic Chair, and FlexiSpot C7 compared by seat height, seat depth, and price."
+description: 'The best ergonomic chair for a short person starts with one number: minimum seat height. Herman Miller Aeron Size A (14.8"), Steelcase Series 1 (16.5"), Branch Ergonomic Chair, and FlexiSpot C7 compared by seat height, seat depth, and price.'
 date: 2026-11-12
 lang: en
 category: ergonomic-chairs
-tags: ["ergonomic chair", "short person", "Herman Miller Aeron", "Steelcase", "seat height"]
+tags:
+  [
+    "ergonomic chair",
+    "short person",
+    "Herman Miller Aeron",
+    "Steelcase",
+    "seat height",
+  ]
 cover: tool
 coverImage: "/images/hardware/herman-miller-aeron/homepage.webp"
 featured: false
@@ -24,13 +31,13 @@ Seat depth matters second: a shallower seat (**15–17 inches deep**) lets your 
 
 ## The short answer
 
-| Chair | Min. seat height | Seat depth | Approx. price |
-| --- | --- | --- | --- |
-| **Herman Miller Aeron, Size A** | 14.8 in | 15.75 in | ~$1,095+ |
-| **Steelcase Series 1** | 16.5 in | 15.75–18.5 in | ~$400–$500 |
-| **Branch Ergonomic Chair** | 17 in | 17 in | ~$329 |
-| **FlexiSpot C7** | 17.3 in | 17.7 in | ~$300 |
-| **Sihoo M59AS** | 17.7 in | 17.3 in | ~$200 |
+| Chair                           | Min. seat height | Seat depth    | Approx. price |
+| ------------------------------- | ---------------- | ------------- | ------------- |
+| **Herman Miller Aeron, Size A** | 14.8 in          | 15.75 in      | ~$1,095+      |
+| **Steelcase Series 1**          | 16.5 in          | 15.75–18.5 in | ~$400–$500    |
+| **Branch Ergonomic Chair**      | 17 in            | 17 in         | ~$329         |
+| **FlexiSpot C7**                | 17.3 in          | 17.7 in       | ~$300         |
+| **Sihoo M59AS**                 | 17.7 in          | 17.3 in       | ~$200         |
 
 **Pick the Herman Miller Aeron Size A** if budget is not the deciding factor — it is the only premium chair built in a genuinely small frame. **Pick the Steelcase Series 1** for the best balance of low seat height and price. **Pick the Sihoo M59AS** if your budget is under $250.
 
@@ -108,4 +115,4 @@ One more thing: your desk matters as much as your chair. A chair that drops to 1
 - 5 best ergonomic office chairs for short persons, Desk One (deskone.com.au, 2026): Steelcase Series 1 and Aeron Size A specs, ideal seat height 15–17 in.
 - Best ergonomic office chair for short people, Truth in American Education (truthinamericaneducation.com, 2026): minimum seat height data, HOMIFYCO and ELABEST comparisons.
 
-*Prices checked November 2026. They change — verify before you buy. This page contains no affiliate links yet; product links go to the manufacturers' own stores.*
+_Prices checked November 2026. They change — verify before you buy. This page contains no affiliate links yet; product links go to the manufacturers' own stores._

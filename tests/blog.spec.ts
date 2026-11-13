@@ -329,9 +329,7 @@ test("Article contents, code blocks, and adjacent posts", async ({
       "zh-Hant": "你好，Kanade",
       en: "Hello, Kanade",
       ja: "こんにちは、Kanade",
-    }[
-      language
-    ],
+    }[language],
   );
   await expect(page.locator("#article-body h2")).toHaveCount(4);
   await expect(page.locator(".copy-code")).toHaveCount(1);

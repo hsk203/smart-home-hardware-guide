@@ -25,11 +25,11 @@ const pricingLabels: Record<string, string> = {
 };
 const hasToolInfo = Boolean(
   tool.pricingModel ||
-    tool.startingPrice ||
-    tool.needVPN !== undefined ||
-    tool.cnAlternative ||
-    tool.affiliateUrl ||
-    tool.updatedDate,
+  tool.startingPrice ||
+  tool.needVPN !== undefined ||
+  tool.cnAlternative ||
+  tool.affiliateUrl ||
+  tool.updatedDate,
 );
 const index = posts.findIndex((item) => item.id === getPostId(post));
 const newer = posts[index - 1];
@@ -76,7 +76,11 @@ const older = posts[index + 1];
         <p>{post.data.description}</p>
       </header>
       <div class="article-cover">
-        <PostCover kind={post.data.cover} featured={post.data.featured} image={post.data.coverImage} />
+        <PostCover
+          kind={post.data.cover}
+          featured={post.data.featured}
+          image={post.data.coverImage}
+        />
       </div>
       {hasToolInfo && (
         <section class="tool-info" aria-label={t("tool.infoTitle")}>

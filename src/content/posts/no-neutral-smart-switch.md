@@ -4,7 +4,15 @@ description: "No neutral wire at your switch box? Lutron Caseta PD-6WCL (~$65), 
 date: 2026-11-12
 lang: en
 category: smart-switches
-tags: ["smart switch", "no neutral", "Lutron Caseta", "Aqara", "Shelly", "old house"]
+tags:
+  [
+    "smart switch",
+    "no neutral",
+    "Lutron Caseta",
+    "Aqara",
+    "Shelly",
+    "old house",
+  ]
 cover: tool
 coverImage: "/images/hardware/lutron-caseta/homepage.webp"
 featured: false
@@ -24,13 +32,13 @@ That trick has a side effect. Some LED bulbs are sensitive enough to react to th
 
 ## The short answer
 
-| Switch | Protocol | Hub needed | No-neutral | Approx. price |
-| --- | --- | --- | --- | --- |
-| **Lutron Caseta PD-6WCL** | Clear Connect RF | Yes — Smart Bridge (~$80) | Yes | ~$60–70 |
-| **Aqara H1 (no-neutral)** | Zigbee 3.0 | Yes — Zigbee hub | Yes | ~$30–35 |
-| **Shelly 1L Gen3** | Wi-Fi | No | Yes | ~$18–22 |
-| **Inovelli Blue 2-1** | Zigbee | Yes — Zigbee hub | Yes, with limits | ~$50 |
-| **GE Cync (no-neutral)** | Wi-Fi + Bluetooth | No | Yes | ~$25–30 |
+| Switch                    | Protocol          | Hub needed                | No-neutral       | Approx. price |
+| ------------------------- | ----------------- | ------------------------- | ---------------- | ------------- |
+| **Lutron Caseta PD-6WCL** | Clear Connect RF  | Yes — Smart Bridge (~$80) | Yes              | ~$60–70       |
+| **Aqara H1 (no-neutral)** | Zigbee 3.0        | Yes — Zigbee hub          | Yes              | ~$30–35       |
+| **Shelly 1L Gen3**        | Wi-Fi             | No                        | Yes              | ~$18–22       |
+| **Inovelli Blue 2-1**     | Zigbee            | Yes — Zigbee hub          | Yes, with limits | ~$50          |
+| **GE Cync (no-neutral)**  | Wi-Fi + Bluetooth | No                        | Yes              | ~$25–30       |
 
 **Pick the Lutron Caseta PD-6WCL** if you want the most reliable no-neutral switch and do not mind buying the $80 bridge. **Pick the Aqara H1** if you already run Home Assistant or another Zigbee hub. **Pick the Shelly 1L** if you want to keep your existing switch faceplate and pay the least.
 
@@ -131,4 +139,4 @@ And one warning: most mainstream smart switches — including most Leviton and Z
 - Smart switch no neutral wire: what actually works, HomeAutoCentral (homeautocentral.com, October 2026): manufacturer-documented neutral claims, Zooz dead end, bypass details.
 - Which smart switch is considered the best, GoG Elec (gog-elec.com, 2026): price table, protocol comparison.
 
-*Prices checked November 2026. They change — verify before you buy. This page contains no affiliate links yet; product links go to the manufacturers' own stores.*
+_Prices checked November 2026. They change — verify before you buy. This page contains no affiliate links yet; product links go to the manufacturers' own stores._

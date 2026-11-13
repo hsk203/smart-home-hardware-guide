@@ -162,7 +162,10 @@ onUnmounted(() => window.removeEventListener("popstate", readUrl));
           class="cover-link"
           :aria-label="t('post.read', { title: post.title })"
           tabindex="-1"
-          ><PostCover :kind="post.cover" :featured="post.featured" :image="post.coverImage"
+          ><PostCover
+            :kind="post.cover"
+            :featured="post.featured"
+            :image="post.coverImage"
         /></a>
         <div class="post-info">
           <div class="post-kicker">
