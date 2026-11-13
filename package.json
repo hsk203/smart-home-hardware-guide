@@ -60,7 +60,9 @@
       "esbuild"
     ],
     "overrides": {
-      "@tailwindcss/typography>postcss-selector-parser": "^7.1.6"
+      "@tailwindcss/typography>postcss-selector-parser": "^7.1.6",
+      "undici": ">=8.12.2",
+      "zod": ">=4.6.6"
     }
   }
 }
