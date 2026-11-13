@@ -39,6 +39,7 @@ const older = posts[index + 1];
 <BaseLayout
   title={post.data.title}
   description={post.data.description}
+  ogImage={post.data.coverImage}
   heroTitle={t("article.heroTitle")}
   heroSubtitle={t("article.heroSubtitle")}
   article
@@ -80,6 +81,7 @@ const older = posts[index + 1];
           kind={post.data.cover}
           featured={post.data.featured}
           image={post.data.coverImage}
+          alt={post.data.title}
         />
       </div>
       {hasToolInfo && (

@@ -166,6 +166,7 @@ onUnmounted(() => window.removeEventListener("popstate", readUrl));
             :kind="post.cover"
             :featured="post.featured"
             :image="post.coverImage"
+            :alt="post.title"
         /></a>
         <div class="post-info">
           <div class="post-kicker">

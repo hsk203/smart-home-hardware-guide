@@ -1,6 +1,11 @@
 <script setup lang="ts">
 import { t } from "../../i18n";
-defineProps<{ kind: string; featured?: boolean; image?: string }>();
+defineProps<{
+  kind: string;
+  featured?: boolean;
+  image?: string;
+  alt?: string;
+}>();
 const labels: Record<string, { icon: string; title: string; sub: string }> = {
   astro: {
     icon: "icon-[simple-icons--astro]",
@@ -55,7 +60,13 @@ const labels: Record<string, { icon: string; title: string; sub: string }> = {
     :class="[kind, { featured, 'has-image': !!image }]"
     aria-hidden="true"
   >
-    <img v-if="image" :src="image" alt="" loading="lazy" class="cover-image" />
+    <img
+      v-if="image"
+      :src="image"
+      :alt="alt || labels[kind]?.title || ''"
+      loading="lazy"
+      class="cover-image"
+    />
     <template v-else>
       <div class="cover-grid"></div>
       <span class="cover-orbit"></span><span class="cover-dot"></span>
