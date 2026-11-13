@@ -109,6 +109,8 @@
   "article.back": "すべてのツールに戻る",
   "article.readingTime": "約 {count} 分",
   "article.toc": "このページの目次",
+  "article.tocCollapse": "目次を折りたたむ",
+  "article.tocToggleSub": "サブ項目の表示を切り替える",
   "article.thanks": "お読みいただきありがとうございます。このガイドがお役に立てば幸いです。",
   "article.share": "ページのリンクをコピー",
   "article.shared": "リンクをコピーしました。必要な友達に共有してください。",

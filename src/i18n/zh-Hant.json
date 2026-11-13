@@ -109,6 +109,8 @@
   "article.back": "返回所有工具",
   "article.readingTime": "約 {count} 分鐘",
   "article.toc": "本頁目錄",
+  "article.tocCollapse": "摺疊目錄",
+  "article.tocToggleSub": "顯示或隱藏子目錄",
   "article.thanks": "感謝讀到這裡，願這篇指南對你有所幫助。",
   "article.share": "複製本頁鏈接",
   "article.shared": "鏈接已複製，分享給需要的朋友吧。",

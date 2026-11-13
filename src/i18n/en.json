@@ -109,6 +109,8 @@
   "article.back": "Back to All Tools",
   "article.readingTime": "About {count} min",
   "article.toc": "On This Page",
+  "article.tocCollapse": "Collapse table of contents",
+  "article.tocToggleSub": "Show or hide sub-items",
   "article.thanks": "Thanks for reading — hope this guide helped.",
   "article.share": "Copy Page Link",
   "article.shared": "Link copied — share it with a friend who needs it.",

@@ -1,5 +1,10 @@
 name = "smart-home-hardware-guide"
 compatibility_date = "2026-11-13"
+workers_dev = true
+
+routes = [
+  { pattern = "smarthome-en.aitech8.com", custom_domain = true },
+]
 
 [assets]
 directory = "./dist"
