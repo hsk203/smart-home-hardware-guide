@@ -149,19 +149,7 @@ const ogImageUrl = new URL(ogImage ?? welcomeConfig.bgImage, siteInfo.url);
       <p>{t("footer.message")}</p>
       <p>
         © {new Date().getFullYear()} {personalInfo.englishName} ·{" "}
-        {t("footer.builtWith")}{" "}
-        <a href="https://astro.build" target="_blank" rel="noopener noreferrer">
-          Astro
-        </a>{" "}
-        &amp; <span class="accent">♥</span> · {t("footer.theme")}:{" "}
-        <a
-          href="https://github.com/sudoriaa/Kanade-Astro"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Kanade
-        </a>{" "}
-        · <a href="/rss.xml">{t("common.rss")}</a> ·{" "}
+        <a href="/rss.xml">{t("common.rss")}</a> ·{" "}
         <a href="/about/">{t("common.aboutSite")}</a> ·{" "}
         <a href="/privacy/">{t("common.privacy")}</a>
       </p>
